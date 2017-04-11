@@ -4,54 +4,65 @@
 	    <title>Mirai</title>
 		<style type="text/css">
 		#xx {
-		    padding-top:80px;
-			padding-left:120px;
-			padding-right:120px;
+		    padding:80px;
+			display:-moz-box;
+			display:-webkit-box;
 		}
 		#nav {
-		    width:190px;
-			height:500px;
-			background:white;
-			float:left;
+		    width:180px;
+		    padding-right:10px;
+			background:white;	
+		}
+		#no {
+		    width:20px;
+			background:rgb(185,185,185);
 		}
 		#content {
-		    width:900px;
-			height:500px;
+		    -moz-box-flex:1;
+			-webkit-box-flex:1;
 			background:white;
-			float:right;
 		}
 		#nav1 {
 		    width:110px;
 			height:110px;
 			padding-top:20px;
-			padding-left:40px;
-			padding-bottom:0px;
+			padding-left:30px;
 		}
 		#nav2 {
 		    color:rgb(0,0,0);
 			font-family:OCR A Std;
 			font-size:15px;
 			padding-left:100px;
-			padding-bottom:0px;
 		}
 		#nav3 {
-		    padding-left:40px;
+		    padding-left:30px;
 			line-height:30px;
 			font-size:12px;
-			
 			font-family:Verdana;
 			letter-spacing:2px;
+			padding-bottom:10px;
 		}
 		a {
 		    text-decoration:none;
 			color:rgb(85,85,85);
 	    }
+		#nav,#content{
+		    -moz-box-sizing:border-box;
+			-webkit-box-sizing:border-box;
+		}
+		p a:hover
+        { 
+            background-color:rgb(85,85,85);
+			color:white;
+			font-size:16px;
+			line-height:20px;
+        }
 		</style>
 	</head>
 	<body  style="background-color:rgb(185,185,185);">
         <div id="xx">
         <div id="nav">
-		    <a href="file:///G:/%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/%E4%B8%AA%E4%BA%BA%E7%BD%91%E9%A1%B5/%E9%A6%96%E9%A1%B5.html">
+		    <a href="https://nyalmx.github.io">
 			<img id="nav1" src="1.png" alt="喵"/></a>
 			<p id="nav2">cat house</p>
 			<p id="nav3">
@@ -59,14 +70,14 @@
 			    <a href="###"> Article<br/></a>
 			    <a href="###">Breast<br/></a>
 			    <a href="###">Album<br/></a>
-					 &nbsp;&nbsp;&nbsp;<a href="###">People<br/></a>
-					 &nbsp;&nbsp;&nbsp;<a href="###">Scenery<br/></a>
-					 &nbsp;&nbsp;&nbsp;<a href="###">ACG<br/></a>
-					 &nbsp;&nbsp;&nbsp;<a href="###">Others<br/></a>
-			    <a href="###">message</a></p>
-			
+					 &nbsp;&nbsp;&nbsp;&nbsp;<a href="###">People<br/></a>
+					 &nbsp;&nbsp;&nbsp;&nbsp;<a href="###">Scenery<br/></a>
+					 &nbsp;&nbsp;&nbsp;&nbsp;<a href="###">ACG<br/></a>
+					 &nbsp;&nbsp;&nbsp;&nbsp;<a href="###">Others<br/></a>
+			    <a href="###">Message</a></p>		
 		</div>
-        <div id="content"></div>
+		<div id="no"></div>
+        <div id="content"></div>	
 		</div>		
 	</body>
 </html>
