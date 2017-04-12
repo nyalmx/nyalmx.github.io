@@ -1,10 +1,9 @@
-﻿Nyalmx
+﻿# Nyalmx
 
----
+### Content
 
-## This is a blog repository.
+This is a blog repository.
 
-
-## License
+### License
 
 The MIT License (MIT)
